@@ -15,11 +15,15 @@ Work in progress, TODO:
 
 To install from NPM use: 
 
-    npm install --save @kendraio/image-tagger
+```shell script
+npm install --save @kendraio/image-tagger
+```
     
 Or, include the compiled JS directly into your HTML by adding a script tag:
 
-    <script src="https://unpkg.com/@kendraio/image-tagger/main-es2015.js" type="module"></script>
+```html
+<script src="https://unpkg.com/@kendraio/image-tagger/main-es2015.js" type="module"></script>
+```
     
 ## Usage
 
@@ -32,10 +36,10 @@ Add the component to your HTML markup:
 And then listen to the `tagsChanged` event to get the updated list of tags:
 
 ```javascript
-  const tagger = document.querySelector('kendraio-image-tagger');
-  tagger.addEventListener('tagsChanged', (event) => {
-    console.log(`tagsChanged:`, event.detail);
-  });
+const tagger = document.querySelector('kendraio-image-tagger');
+tagger.addEventListener('tagsChanged', (event) => {
+  console.log(`tagsChanged:`, event.detail);
+});
 ```
 
 You can set the default list of tags by setting the `tags` property on the custom element.
