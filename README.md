@@ -1,4 +1,4 @@
-# KendraioImageTagger
+# Kendraio Image Tagger
 
 [![](https://img.shields.io/npm/v/@kendraio/image-tagger)](https://www.npmjs.com/package/@kendraio/image-tagger)
 
