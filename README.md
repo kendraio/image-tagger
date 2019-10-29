@@ -11,6 +11,11 @@ Work in progress, TODO:
  - expose the tag preview component
  - expose default settings (tag size, etc)
 
+## Demo
+
+[Online demo available at CODEPEN](https://codepen.io/mothersele/pen/KKKvJYd)
+
+
 ## Installation
 
 To install from NPM use: 
