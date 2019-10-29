@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kendraio Image Tagger Test Page</title>
+</head>
+
+<body>
+<kendraio-image-tagger src="/assets/example-image.jpg" alt="Example Image"></kendraio-image-tagger>
+
+<script>
+  const tagger = document.querySelector('kendraio-image-tagger');
+  tagger.addEventListener('tagsChanged', (event) => {
+    console.log(`tagsChanged:`, event.detail);
+  });
+</script>
+</body>
+
+</html>

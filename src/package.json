@@ -1,0 +1,8 @@
+{
+  "name": "@kendraio/image-tagger",
+  "description": "Kendraio image tagging widget bundled as a web component",
+  "repository": {
+    "url": "https://github.com/kendraio/image-tagger"
+  },
+  "version": "0.1.2"
+}
